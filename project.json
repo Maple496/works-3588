@@ -1,0 +1,22 @@
+{
+  "name": "2048滑动合成",
+  "brief": "方向键/触屏滑动合并方块，含分数与最高分、胜负判定的 2048 游戏。",
+  "work_ref": "WORKS-",
+  "entry": "src/main.js",
+  "status": "ok",
+  "files": [
+    {
+      "path": "src/engine.js",
+      "role": "棋盘状态、移动合并、随机出新、胜负判定"
+    },
+    {
+      "path": "src/ui.js",
+      "role": "画布渲染、键盘与触屏手势输入采集"
+    },
+    {
+      "path": "src/main.js",
+      "role": "入口：挂载画布、驱动主循环、连接输入与引擎"
+    }
+  ],
+  "generated_by": "proj_forge（AI 工程工坊）"
+}
